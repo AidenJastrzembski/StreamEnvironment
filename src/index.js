@@ -150,5 +150,3 @@ client.on('messageCreate', async (message) => {
 });
 
 client.login(process.env.TOKEN);
-
-// my weinor is short
