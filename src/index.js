@@ -8,7 +8,7 @@
     - Overlay Image
     - Stream Alerts
 - Make it so that only I can use certain commands (streamstart, streamend, prediction, endprediction)
-- Sync Webstorm with VSC [DONE]  
+- Sync Webstorm with VSC 
 */
 
 require('dotenv').config({ path: '.env' });
