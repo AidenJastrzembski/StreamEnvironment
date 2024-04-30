@@ -73,6 +73,10 @@ const commands = [
         ],
     },
     {
+        name: 'meow',
+        description: '???',
+    },
+    {
         name: 'startstream',
         description: 'Starts all stream related functions.',
     },

@@ -8,7 +8,7 @@
     - Overlay Image
     - Stream Alerts
 - Make it so that only I can use certain commands (streamstart, streamend, prediction, endprediction)
-- Sync Webstorm with VSC 
+- Sync Webstorm with VSC✅ 
 */
 
 require('dotenv').config({ path: '.env' });
@@ -126,6 +126,10 @@ client.on('interactionCreate', async (interaction) => {
         
     }
     if (interaction.commandName === 'endstream') {
+
+    }
+    if (interaction.commandName === 'meow') {
+        await interaction.reply('Meow! :3');
 
     }
 });
