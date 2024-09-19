@@ -7,6 +7,7 @@ future was going to have functions that allowed it to control overlays in my obs
 ## Installation
 to run this bot yourself, just run
 ```
-npm i | \ 
+npm i
 npm run dev
 ```
+And you are good to go!
